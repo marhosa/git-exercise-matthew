@@ -1,0 +1,84 @@
+{
+  "patientID": 10254,
+  "name": "Example Patient",
+  
+  "domain1": {
+    "questions": [
+      [false, "Does the person often forget recent events or conversations?"],
+      [false, "Can the person remember things told to them a few minutes ago?"],
+      [false, "Can the person recall 4–5 details (e.g., items, names) after a short delay?"],
+      [false, "Can the person recall information without being given clues?"],
+      [false, "If given hints or reminders, does the person remember better?"],
+      [false, "Does the person still remember important past events (e.g., birthdays, anniversaries)?"],
+      [false, "Does the person recognize family members or close friends?"],
+      [false, "Does the person forget where they put objects frequently?"],
+      [false, "Does the person remember appointments or schedules?"],
+      [false, "Does the person repeat the same questions or stories often?"]
+    ],
+    "label": "Memory"
+  },
+  
+  "domain2": {
+    "questions": [
+      [false, "Does the person know their full name?"],
+      [false, "Does the person know their age or birthday?"],
+      [false, "Does the person know where they are right now?"],
+      [false, "Does the person know the current date?"],
+      [false, "Does the person know the current month and year?"],
+      [false, "Does the person know what day of the week it is?"],
+      [false, "Does the person recognize familiar places like home or church?"],
+      [false, "Does the person know who they are with?"],
+      [false, "Does the person recognize the country or city they live in?"],
+      [false, "Does the person know the time of day (morning, afternoon, evening)?"]
+    ],
+    "label": "Orientation"
+  },
+  
+  "domain3": {
+    "questions": [
+      [false, "Can the person make effective daily decisions?"],
+      [false, "Does the person understand what is right or wrong?"],
+      [false, "Can the person handle money or pay for items correctly?"],
+      [false, "Does the person know what to do in a household emergency (e.g., gas leak)?"],
+      [false, "Does the person know how to respond if someone gets hurt?"],
+      [false, "Can the person prepare simple meals safely?"],
+      [false, "Does the person act safely around stoves, tools, or appliances?"],
+      [false, "Can the person avoid dangerous situations (e.g., crossing streets safely)?"],
+      [false, "Does the person recognize when to ask for help?"],
+      [false, "Does the person plan tasks in a logical order (e.g., cooking before eating)?"]
+    ],
+    "label": "Judgment"
+  },
+  
+  "domain4": {
+    "questions": [
+      [false, "Can the person bathe independently?"],
+      [false, "Can the person dress without help?"],
+      [false, "Can the person eat meals on their own?"],
+      [false, "Can the person manage toileting without assistance?"],
+      [false, "Can the person maintain personal hygiene (e.g., brushing teeth)?"],
+      [false, "Can the person perform household chores safely (e.g., cleaning, cooking)?"],
+      [false, "Can the person shop for food or essentials independently?"],
+      [false, "Can the person manage transportation or travel safely?"],
+      [false, "Can the person use a phone or communicate basic needs clearly?"],
+      [false, "Does the person manage medications correctly?"]
+    ],
+    "label": "Daily Functioning"
+  },
+  
+  "domain5": {
+    "questions": [
+      [false, "Does the person still participate in community or social activities?"],
+      [false, "Is the person a member of a club or group (e.g., senior club, church)?"],
+      [false, "Does the person interact meaningfully in social gatherings?"],
+      [false, "Does the person understand what’s happening during community events (not just copy others)?"],
+      [false, "Does the person recognize familiar people in the community?"],
+      [false, "Can the person drive safely without getting lost?"],
+      [false, "Does the person find their way home easily?"],
+      [false, "Can the person navigate shops or markets correctly?"],
+      [false, "Does the person engage in hobbies or interests regularly?"],
+      [false, "Does the person show enjoyment or motivation in social activities?"]
+    ],
+    "label": "Community and Social Engagement"
+  }
+}
